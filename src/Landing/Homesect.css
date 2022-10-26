@@ -76,10 +76,11 @@ p {
 
 @media only screen and (max-width: 769px) {
     p {
-        text-align: justify;
+        text-align:left;
         font-family: 'Source Code Pro', monospace;
-        max-width: 50%;
-        font-size: 0.8rem;
+        max-width: 60%;
+        font-size: 0.7rem;
+        font-weight: bold;
     }
 
     #sec1 {
