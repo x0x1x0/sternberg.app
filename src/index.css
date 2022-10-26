@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 body {
-  background-color: #252525;
-  padding-bottom: env(safe-area-inset-bottom);
+  background-color: #07070f;
 }
