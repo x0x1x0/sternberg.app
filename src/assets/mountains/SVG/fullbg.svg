@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #252525;
+        opacity: .85;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+        opacity: .52;
+      }
+
+      .cls-4 {
+        fill: #212121;
+      }
+
+      .cls-5 {
+        fill: #fff78b;
+      }
+
+      .cls-6 {
+        fill: #fff1ab;
+        opacity: .33;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1061.26" y1="845.5" x2="1705.58" y2="845.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7931e"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <rect class="cls-4" width="1920" height="1080"/>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <polygon class="cls-5" points="1088 384 686.16 1080 1489.84 1080 1088 384"/>
+  </g>
+  <g id="Layer_10" data-name="Layer 10">
+    <circle class="cls-6" cx="605" cy="337" r="70"/>
+  </g>
+  <g id="Layer_9" data-name="Layer 9">
+    <circle class="cls-1" cx="605" cy="337" r="36"/>
+  </g>
+  <g id="Layer_8" data-name="Layer 8">
+    <polygon class="cls-3" points="1705.58 1077 1061.26 1077 1383.42 614 1705.58 1077"/>
+  </g>
+  <g id="Layer_7" data-name="Layer 7">
+    <rect class="cls-2" width="1920" height="1080"/>
+  </g>
+</svg>

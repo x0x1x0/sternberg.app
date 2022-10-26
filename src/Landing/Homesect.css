@@ -1,32 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,600&display=swap');
 
 body {
-    font-family: 'JetBrains Mono', monospace;
-    text-align: center;
+    color: aliceblue;
 }
 section {
     min-height: 100vh;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family:'Open Sans',sans-serif;
+    font-weight: 1000;
+    transition: 1s;
+}
+
+h1:hover {
+    color: rgba(255, 199, 94, 0.678);
+    transition: 1s;
+
+}
+p {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 35%;
+    font-size: 0.9rem;
+
+}
+
+#sec1 {
+
+    text-align: left;
+    display: grid;
+    
+    align-content: center;
+    background-position: center;
+    background-size:cover;
+    background-image: url('F:\Code\react.portfoliotut\reactportfoliotut\src\assets\mountains\SVG\fullbg.svg');
+    background-repeat: no-repeat;
+}
+
+#sec2 {
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
-}
-
-#sec1 {
-    font-family: 'JetBrains Mono' , monospace;
-    font-style: italic;
-    font-weight: ;
-    background-color: #252525;
-    top: 0;
-    left: 0;
-    width: 100%
-}
-
-#sec2 {
-    background-color: rgb(239, 243, 224);
+    background-color: #151515;
     top: 0;
     left: 0;
     width: 100%;
 }
+
 
