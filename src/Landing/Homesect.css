@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,200;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 body {
     color: aliceblue;
@@ -11,7 +12,8 @@ section {
 }
 
 h1 {
-    font-family:'Open Sans',sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
     font-weight: 1000;
     transition: 1s;
 }
@@ -21,10 +23,11 @@ h1:hover {
     transition: 1s;
 }
 p {
+
     text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-    max-width: 50%;
-    font-size: 0.9rem;
+    font-family: 'Source Code Pro', monospace;
+    max-width: 35%;
+    font-size: 0.8rem;
 }
 
 
@@ -44,12 +47,14 @@ p {
 
 #sec1 {
     background-image: url('./fullbg.png');
-    min-width: 500px;
+    height: 100%;
+    min-width: 50%;
+    max-width: 100%;
     text-align: left;
     display: grid;
     align-content: center;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -64,4 +69,34 @@ p {
     width: 100%;
 }
 
+.textdiv1 {
+    margin-left: 12rem;
+    transition: 1s;
+}
 
+@media only screen and (max-width: 769px) {
+    p {
+        text-align: justify;
+        font-family: 'Source Code Pro', monospace;
+        max-width: 50%;
+        font-size: 0.8rem;
+    }
+
+    #sec1 {
+        background-image: url('./fullbg.png');
+        text-align: left;
+        display: grid;
+        align-content: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media only screen and (max-width: 1025px) {
+    .textdiv1 {
+        margin-left: 0rem;
+    }
+
+}
