@@ -5,7 +5,7 @@ import { GiMountainCave } from 'react-icons/gi';
 
 function Navbar() {
   return (
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
 
   <a class="navbar-brand ml-3" href="#"><GiMountainCave /></a>
 <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

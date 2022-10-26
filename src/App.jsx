@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navigation/Navbar.jsx";
 import './index.css';
 import Homesection from './Landing/Homesection';
+import { Platform, StyleSheet, Text, View, SafeAreaView } from 'react-native';
 
 
 function App() {
