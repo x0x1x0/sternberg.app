@@ -1,0 +1,27 @@
+.navbar{
+background-color: #252525;
+font-size: 15px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+  }
+
+
+
+  .moonlogo {
+    width: 60px;
+    margin-left: 1rem;
+  }
+
+
+  .navbar-dark .navbar-toggler {
+    color: rgba(156, 124, 124, 0);
+    border-color: rgba(248, 0, 0, 0);
+  }
+
