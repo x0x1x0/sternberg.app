@@ -19,25 +19,32 @@ h1 {
 h1:hover {
     color: rgba(255, 199, 94, 0.678);
     transition: 1s;
-
 }
 p {
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
     max-width: 35%;
     font-size: 0.9rem;
-
 }
 
-#sec1 {
+#bg {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: -1;
+    
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
 
+  }
+
+#sec1 {
     text-align: left;
     display: grid;
-    
     align-content: center;
     background-position: center;
     background-size:cover;
-    background-image: url('./src/assets/fullbg.png');
     background-repeat: no-repeat;
 }
 
