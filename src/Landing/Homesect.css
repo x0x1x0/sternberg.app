@@ -23,23 +23,28 @@ h1:hover {
 p {
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
-    max-width: 35%;
+    max-width: 50%;
     font-size: 0.9rem;
 }
 
+
 #bg {
-    position: absolute; 
+    align-items: center;
+    display: block;
+    position: absolute;
     top: 0; 
     left: 0; 
     z-index: -1;
     
     /* Preserve aspet ratio */
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 50%;
+    min-height: 50%;
 
   }
 
 #sec1 {
+    background-image: url('./fullbg.png');
+    min-width: 500px;
     text-align: left;
     display: grid;
     align-content: center;
