@@ -46,7 +46,7 @@ p {
   }
 
 #sec1 {
-   
+    background-color: #212121;
     height: 100%;
     min-width: 50%;
     max-width: 100%;
@@ -84,7 +84,6 @@ p {
     }
 
     #sec1 {
-        background-image: url('./fullbg.png');
         text-align: left;
         display: grid;
         align-content: center;
