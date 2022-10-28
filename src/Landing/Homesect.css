@@ -6,17 +6,13 @@
 
 html {
     background-color: #212121;
-    max-width: 100vw;
-    overflow-x: hidden;
-
 }
 
 body {
     color: rgb(255, 255, 255);
     background-color: #212121;
-    max-width: 100vw
-
-
+    width: 100%;
+    overflow-x: hidden;
 }
 section {
     min-height: 100vh;
@@ -91,6 +87,13 @@ section {
 
 
 @media only screen and (max-width: 769px) {
+
+    body {
+        color: rgb(255, 255, 255);
+        background-color: #212121;
+        width: 100%;
+        overflow-x: hidden;
+    }
 
 
     #sec1 {
