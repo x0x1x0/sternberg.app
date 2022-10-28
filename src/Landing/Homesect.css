@@ -114,10 +114,3 @@ h1 {z-index: 9999999;
 }
 
 
-
-@media only screen and (max-width: 1025px) {
-    .textdiv1 {
-        margin-left: 0rem;
-    }
-
-}
