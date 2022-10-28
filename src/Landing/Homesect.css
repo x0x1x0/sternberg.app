@@ -6,13 +6,14 @@
 
 html {
     background-color: #212121;
-    overflow-x: hidden;
+
 }
 
 body {
     color: rgb(255, 255, 255);
     background-color: #212121;
-    width: 100%;
+    overflow-x: hidden;
+
 }
 section {
     min-height: 100vh;
