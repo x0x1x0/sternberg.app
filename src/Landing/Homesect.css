@@ -23,8 +23,8 @@ section {
     color: rgb(255, 199, 94); 
 }
 
-
 .card {
+    margin: 5rem;
     background-color: #363636;
     text-align: center;
     align-content: center;
