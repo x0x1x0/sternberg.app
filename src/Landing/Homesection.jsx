@@ -6,11 +6,9 @@ function Homesection () {
     return (
 <>
 <section id="sec1">
-<div class="textdiv1">
 <div class="backg"></div>
 <h1 class="heading mx-5">Welcome to my page</h1>
-        <p class="maintext mx-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin li </p>
-</div>   
+        <p class="maintext mx-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin li </p>  
 </section>
     <section  id="sec2">
         
