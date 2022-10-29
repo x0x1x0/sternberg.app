@@ -44,18 +44,24 @@ section {
     transition: 1s;
 }
 
+.text1{
+    z-index: 1;
+    margin-left: 10rem;
+    
+}
 
 .maintext {
     max-width: 60ch;
 }
 
 .backg {
+    z-index: -1;
     overflow: hidden;
     position: absolute;
     left: 0;
     top: 0;
     width: 100vw;
-    opacity: 0.3;
+    opacity: 0.33;
     background-image: url("./mountain_landscape17_generated.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,9 +75,6 @@ section {
     text-align: left;
     display: grid;
     align-content: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 #sec2 {
@@ -102,9 +105,13 @@ section {
         align-content: center;
         background-position: center;
         background-repeat: no-repeat;
-        max-width: 40ch;
+        max-width: 54ch;
     }
 
+    .text1{
+     margin-left: 0rem;
+    
+    }
 }
 
 

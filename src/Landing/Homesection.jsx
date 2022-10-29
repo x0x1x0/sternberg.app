@@ -1,14 +1,17 @@
 import React from "react";
 import './Homesect.css';
-import MyImage from './fullbg.png';
 
 function Homesection () {
     return (
 <>
 <section id="sec1">
-<div class="backg"></div>
-<h1 class="heading mx-5">Welcome to my page</h1>
-        <p class="maintext mx-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin li </p>  
+
+        <div class="text1">
+        <h1 class="heading mx-5">Welcome to my page</h1>
+        <p class="maintext mx-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin li </p>
+        <div class="backg"></div>
+        </div>
+        
 </section>
     <section  id="sec2">
         
